@@ -1,0 +1,12 @@
+{
+  "name": "<%  print(projName ? projName : defaultProjName) %>",
+  "version": "1.0.0",
+  "main": "lib/<%= projModuleName %>",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "browserify": "latest",
+    "mocha": "latest"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "generator-modulify",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "nicktomlin/generator-modulify",
+  "author": {
+    "name": "Nick Tomlin",
+    "email": "nick.tomlin+github@gmail.com",
+    "url": "https://github.com/NickTomlin"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0",
+    "camel-case": "^0.1.0",
+    "param-case": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}

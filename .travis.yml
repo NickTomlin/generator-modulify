@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-modulify' ]; then cd .. && eval "mv $currentfolder generator-modulify" && cd generator-modulify; fi
+
