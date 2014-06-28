@@ -5,7 +5,7 @@ NODE_BIN := ./node_modules/.bin
 EXPORTED_FILE := <%= projModuleName %>
 
 build: clean
-	$(NODE_BIN)/browserify $(SRC_DIR)/* -s <%= projNameSpace %> | $(NODE_BIN)/uglifyjs > $(DIST_DIR)/$(EXPORTED_FILE).js
+	$(NODE_BIN)/browserify $(SRC_DIR)/* -s <%= projNamespace %> | $(NODE_BIN)/uglifyjs > $(DIST_DIR)/$(EXPORTED_FILE).js
 .PHONY: build
 
 test:

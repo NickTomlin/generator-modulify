@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "browserify": "latest",
-    "mocha": "latest"
+    "mocha": "latest",
+    "uglify-js": "latest"
   }
 }

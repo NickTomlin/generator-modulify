@@ -40,13 +40,13 @@ var ModulifyGenerator = yeoman.generators.Base.extend({
     this.mkdir('lib');
     this.mkdir('test');
 
-    this.copy('_app.js', 'lib/' + this.projModuleName + '.js');
-    this.copy('_test.js', 'test/' + this.projModuleName + '-test.js');
+    this.template('_app.js', 'lib/' + this.projModuleName + '.js');
+    this.template('_test.js', 'test/' + this.projModuleName + '-test.js');
 
     this.copy('editorconfig', '.editorconfig');
     this.copy('jshintrc', '.jshintrc');
-    this.copy('_package.json', 'package.json');
-    this.copy('_Makefile', 'Makefile');
+    this.template('_package.json', 'package.json');
+    this.template('_Makefile', 'Makefile');
   }
 });
 

@@ -1,5 +1,5 @@
-function <%= projNamespace %> {
+function <%= projNamespace %> () {
 
 }
 
-module.exports = <% projNamespace%>;
+module.exports = <%= projNamespace%>;
