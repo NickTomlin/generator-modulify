@@ -1,6 +1,6 @@
 {
   "name": "generator-modulify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple boilerplate for creating a cross-stack CJS module with browserify.",
   "license": "MIT",
   "main": "app/index.js",
