@@ -49,6 +49,7 @@ var ModulifyGenerator = yeoman.generators.Base.extend({
     this.copy('jshintrc', '.jshintrc');
     this.template('_package.json', 'package.json');
     this.template('_Makefile', 'Makefile');
+    this.template('_README.md', 'README.md');
   }
 });
 
