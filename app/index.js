@@ -10,9 +10,11 @@ var ModulifyGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = yeoman.file.readJSON(path.join(__dirname, '../package.json'));
 
-    // replace it with a short and sweet description of your generator
-    console.log(chalk.magenta('You\'re using the fantastic Modulify generator.'));
-    // @todo: can we just supply a default via this.argument?
+    console.log('');
+    console.log(chalk.magenta('<<<<<<<      MODULIFY      >>>>>>>>'));
+    console.log(chalk.magenta('<<<<<<< CJS all the things >>>>>>>>'));
+    console.log('');
+
     this.argument('projName', {
       type: String,
       required: false,
