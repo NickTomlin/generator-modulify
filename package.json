@@ -1,7 +1,7 @@
 {
   "name": "generator-modulify",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
+  "version": "1.0.0",
+  "description": "Simple boilerplate for creating a cross-stack CJS module with browserify.",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "nicktomlin/generator-modulify",
