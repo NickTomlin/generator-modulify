@@ -1,3 +1,5 @@
+'use strict';
+
 var assert = require('assert');
 var <%= projNamespace %> = require('../lib/<%= projModuleName %>');
 
